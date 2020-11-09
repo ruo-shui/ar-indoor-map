@@ -32,6 +32,7 @@
         }
       },
       switchNav(){
+        navi.clearAll()
         this.$store.commit('switchNav')
       }
     }
@@ -45,7 +46,7 @@
     border-radius: 15px;
     background-color: #fff;
     position: fixed;
-    top:250px;
+    top:350px;
     left: 15px;
     box-shadow: 1px 1px 1px #d4d4d4;
   }

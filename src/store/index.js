@@ -6,7 +6,8 @@ import mutations from './mutation'
 Vue.use(Vuex)
 
 const state = {
-  isNavShow:false
+  isNavShow:false,
+  coordinates:[]
 }
 
 const store = new Vuex.Store({

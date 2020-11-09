@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import IndoorMap from "./components/IndoorMap"
+import IndoorMap from "./components/indoorMap/IndoorMap"
 import ToolBar from "./components/ToolBar"
 import Navigation from "./components/Navigation"
 
@@ -16,7 +16,7 @@ export default {
   components: {
     IndoorMap,
     ToolBar,
-    Navigation
+    Navigation,
   }
 }
 </script>
@@ -26,5 +26,13 @@ export default {
   #app{
     width: 100%;
     height: 100%;
+  }
+  .landmark {
+    background-color: #6a6a6a;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -60px;
+    margin-top: -45px;
   }
 </style>
