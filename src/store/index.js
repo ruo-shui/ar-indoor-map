@@ -7,6 +7,10 @@ Vue.use(Vuex)
 
 const state = {
   isNavShow:false,
+  isNavBoxShow:false,
+  startPointSelect:false,
+  endPointSelect:false,
+  arComponentShow:true,
   coordinates:[]
 }
 

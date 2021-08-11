@@ -1,4 +1,4 @@
-export let landmarkCoo = [
+export let landmarkCoo1 = [
   {
     name: "厕所",
     pic: "厕所.png",
@@ -25,6 +25,37 @@ export let landmarkCoo = [
     pic: "办公区.png",
     x: 13439344.050809639,
     y:  3667229.27533807,
+    height:45
+  }
+]
+
+export let landmarkCoo2 = [
+  {
+    name: "厕所",
+    pic: "厕所.png",
+    x: 13237066.920947641,
+    y: 3778702.8825714635,
+    height:90
+  },
+  {
+    name: "厕所",
+    pic: "厕所.png",
+    x: 13237151.780315474,
+    y: 3778674.672081741,
+    height:45
+  },
+  {
+    name: "楼梯",
+    pic: "楼梯.png",
+    x: 13237107.908749536,
+    y: 3778690.452003495,
+    height:90
+  },
+  {
+    name: "楼梯",
+    pic: "楼梯.png",
+    x: 13237109.975803955,
+    y: 3778662.6941257464,
     height:45
   }
 ]

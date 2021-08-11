@@ -4,7 +4,7 @@
       <img src="~@/assets/img/2D.png" alt="" v-show="isActive">
       <img src="~@/assets/img/3D.png" alt="" v-show="!isActive">
     </div>
-    <div id="arBar" class="icon">
+    <div id="arBar" class="icon" @click="switchAr">
       <img src="~@/assets/img/AR.png" alt="">
     </div>
     <div id="navigationBar" class="icon" @click="switchNav">
@@ -19,7 +19,7 @@
     name: "ToolBar",
     data(){
       return {
-        isActive:true
+        isActive:false
       }
     },
     methods:{
@@ -34,6 +34,10 @@
       switchNav(){
         navi.clearAll()
         this.$store.commit('switchNav')
+        document.getElementById("webARModule").style.zIndex = "0"
+      },
+      switchAr(){
+        this.$store.commit("switchArComponent")
       }
     }
   }

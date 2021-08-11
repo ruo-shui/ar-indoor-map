@@ -3,13 +3,15 @@
     <indoor-map></indoor-map>
     <tool-bar></tool-bar>
     <navigation></navigation>
+    <navigation-box></navigation-box>
   </div>
 </template>
 
 <script>
 import IndoorMap from "./components/indoorMap/IndoorMap"
 import ToolBar from "./components/ToolBar"
-import Navigation from "./components/Navigation"
+import Navigation from "./components/navigation/Navigation"
+import NavigationBox from "./components/navigation/NavigationBox"
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     IndoorMap,
     ToolBar,
     Navigation,
+    NavigationBox
   }
 }
 </script>
